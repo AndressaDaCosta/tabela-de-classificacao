@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação - completo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de classificação</h1>
+  <br>
+  <div class="addTeam">
+    <input id="nomeJogador" placeholder="Insira nome do jogador">
+    <input id="iconeJogador" placeholder="Insira a URL do icone do jogador (.jpg)">
+    <button class="button" onClick="adicionarJogador()">Adicionar</button>
+  </div>
+  <br>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Ícone</th>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan=3>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+    </tbody>
+  </table>
+  <div class="buttonZerar">
+    <button class="button" onClick="zeraPontos()">Limpar o placar</button>
+  </div>
+</body>
+
+</html>
+
+<!--       <tr>
+        <td>Paulo</td>
+        <td>2</td>
+        <td>5</td>
+        <td>1</td>
+        <td>24</td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td>Rafa</td>
+        <td>3</td>
+        <td>5</td>
+        <td>6</td>
+        <td>2</td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td>Gui</td>
+        <td>3</td>
+        <td>5</td>
+        <td>6</td>
+        <td>2</td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+    </tbody> -->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

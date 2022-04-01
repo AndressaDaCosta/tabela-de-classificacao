@@ -1,0 +1,119 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://bestanimations.com/media/computers/1837444502funny-computer-animated-gif-7.gif");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+img {
+  width: 70px;
+  height: 70px;
+  border: 2px solid;
+  border-color: #0000ff;
+}
+th,
+tr,
+td {
+  background: gray;
+  border: solid 1px black;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  text-align: left;
+  color: black;
+  font-size: 18px;
+  width: 320px;
+  height: 13px;
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+input:hover {
+  border: 1px solid #556b2f;
+  box-shadow: 1px 1px 5px 1px blue;
+}
+
+.button {
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: blue;
+}
+.button:hover {
+  box-shadow: 1px 1px 5px 1px white;
+}
+.button:active {
+  transition: 0s;
+  background-color: lightblue;
+  transform: translateY(2px);
+}
+
+.actions {
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 18px;
+  background: #0000ff;
+}
+.actions:hover {
+  box-shadow: 1px 1px 5px 1px #ffffff;
+}
+.actions:active {
+  transition: 0s;
+  background-color: #87ceeb;
+  transform: translateY(2px);
+}
+
+.buttonZerar {
+  margin-top: 10px;
+}
